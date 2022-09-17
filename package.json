@@ -1,0 +1,34 @@
+{
+  "name": "follow",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "nef007",
+  "license": "MIT",
+  "dependencies": {
+    "@qiwi/bill-payments-node-js-sdk": "^3.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.3",
+    "mongoose-paginate": "^5.0.3",
+    "nanoid": "3.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js  ",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "client:build": "npm run client:build  --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
+  }
+}

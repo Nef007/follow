@@ -1,0 +1,40 @@
+.wrapper {
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 'menu header' 'menu   content' 'menu footer';
+    grid-template-columns: 15rem 1fr;
+    grid-template-rows: 3rem 1fr 3rem;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 320px;
+}
+
+aside {
+    grid-area: menu;
+    color: rgba(255, 255, 255, 0.65);
+    background: #042748;
+
+    transition: all 0.2s;
+}
+
+article {
+    grid-area: content;
+    background-color: #f0f2f5;
+    padding: 20px 10px 0 20px;
+
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: #f0f2f5;
+    text-align: center;
+    font-family: HACKED, sans-serif;
+    font-size: 16px;
+    color: #647d93;
+}

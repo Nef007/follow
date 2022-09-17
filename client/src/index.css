@@ -1,0 +1,30 @@
+.content {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  height: calc(100% - 35px);
+  display: flex;
+  width: calc(100vw - 287px);
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+
+.contentOut {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+min-height: 300px;
+  min-width: 400px;
+}
+
+
+
+.title {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: MuseoSansCyrl900, sans-serif;
+  color: #647d93;
+}

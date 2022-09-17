@@ -1,0 +1,9 @@
+.toolsControl {
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.toolsElement{
+    margin-right: 20px;
+}

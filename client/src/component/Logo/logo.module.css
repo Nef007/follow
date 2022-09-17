@@ -1,0 +1,23 @@
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-family: MarckScript, sans-serif;
+}
+.logo__title{
+    font-size: 30px;
+    font-family: HACKED, sans-serif;
+    padding-top: 20px;
+
+}
+
+.logo__img {
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
